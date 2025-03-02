@@ -14,6 +14,7 @@ Clone this repository and create a virtual environment as the follows:
   conda create -n uzs-sbir python=3.7.13
   conda activate uzs-sbi
   conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch -c conda-forge
+```
 
 
 ### Preparation
@@ -33,4 +34,4 @@ Clone this repository and create a virtual environment as the follows:
 ### Running the Code
 ```bash
   python main.py --aug-plus -a vit_base --batch-size 32 --mlp --cos
-
+```
