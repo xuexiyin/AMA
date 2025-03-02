@@ -16,3 +16,21 @@ Clone this repository and create a virtual environment as the follows:
   conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch -c conda-forge
 
 
+### Preparation
+
+1. **Dataset**
+1. **Dataset**  
+   Prepare your datasets and place them in the `./dataset` directory. The expected datasets are:
+   - Sketchy: [下载链接1]
+   - TUBerlin: [下载链接2]
+   - QuickDraw: [下载链接3]
+
+2. **Pre-trained Model**  
+   Download the pre-trained model and place it in the `./pretrained_dino` directory: [https://dl.fbaipublicfiles.com/dino/dino_vitbase16_pretrain/dino_vitbase16_pretrain_full_checkpoint.pth]
+   
+
+
+### Running the Code
+```bash
+  python main.py --aug-plus -a vit_base --batch-size 32 --mlp --cos
+
