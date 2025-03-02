@@ -30,7 +30,22 @@ Clone this repository and create a virtual environment as the follows:
    
 
 
-### Running the Code
+### Run the Code
 ```bash
-  python main.py --aug-plus -a vit_base --batch-size 32 --mlp --cos
+  python main.py --aug-plus -a vit_base --batch-size 32 --mlp --cos -d skecthy
 ```
+
+## Citation
+If you find this repository useful for your research, please use the following.
+```bash
+@inproceedings{yin2024asymmetric,
+  title={Asymmetric mutual alignment for unsupervised zero-shot sketch-based image retrieval},
+  author={Yin, Zhihui and Yan, Jiexi and Xu, Chenghao and Deng, Cheng},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={15},
+  pages={16504--16512},
+  year={2024}
+}
+```
+
