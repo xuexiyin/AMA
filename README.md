@@ -23,11 +23,11 @@ Clone this repository and create a virtual environment as the follows:
 1. **Dataset**  
    Prepare your datasets and place them in the `./dataset` directory. The expected datasets are:
    - [Sketchy](https://sketchy.eye.gatech.edu/)
-   - TUBerlin: [下载链接2]
-   - QuickDraw: [下载链接3]
+   - [TU-Berlin](https://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/)
+   - [QuickDraw](https://github.com/googlecreativelab/quickdraw-dataset)
 
 2. **Pre-trained Model**  
-   Download the pre-trained model and place it in the `./pretrained_dino` directory: [https://dl.fbaipublicfiles.com/dino/dino_vitbase16_pretrain/dino_vitbase16_pretrain_full_checkpoint.pth]
+   Download the [pre-trained model](https://dl.fbaipublicfiles.com/dino/dino_vitbase16_pretrain/dino_vitbase16_pretrain_full_checkpoint.pth) and place it in the `./pretrained_dino` director.
    
 
 
