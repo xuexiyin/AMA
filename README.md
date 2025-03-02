@@ -22,7 +22,7 @@ Clone this repository and create a virtual environment as the follows:
 1. **Dataset**
 1. **Dataset**  
    Prepare your datasets and place them in the `./dataset` directory. The expected datasets are:
-   - Sketchy: [下载链接1]
+   - [Sketchy](https://sketchy.eye.gatech.edu/)
    - TUBerlin: [下载链接2]
    - QuickDraw: [下载链接3]
 
