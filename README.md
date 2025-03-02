@@ -19,7 +19,6 @@ Clone this repository and create a virtual environment as the follows:
 
 ### Preparation
 
-1. **Dataset**
 1. **Dataset**  
    Prepare your datasets and place them in the `./dataset` directory. The expected datasets are:
    - [Sketchy](https://sketchy.eye.gatech.edu/)
