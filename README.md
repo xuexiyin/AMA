@@ -12,7 +12,7 @@ Clone this repository and create a virtual environment as the follows:
 
 ```bash
   conda create -n uzs-sbir python=3.7.13
-  conda activate uzs-sbi
+  conda activate uzs-sbir
   conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch -c conda-forge
 ```
 
